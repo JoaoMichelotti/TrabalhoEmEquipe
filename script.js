@@ -19,7 +19,10 @@ function marcarImportante(botao) {
 
 // Funcionalidade 3: remover item
 function removerItem(botao) {
-  // Remover <li> e atualizar contador
+  let item = document.getElementById(botao)
+
+  item.remove()
+  atualizarContador()
 
 }
 
@@ -29,3 +32,5 @@ function atualizarContador() {
 
 
 }
+
+
